@@ -53,6 +53,6 @@ module.exports = {
       filename: "index.html",
       template: "src/index.html",
     }),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({ openAnalyzer: false }),
   ],
 };
